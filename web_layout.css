@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.background{
+    background-image: url("back_img.jpeg");
+    height: 670px;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.navbar{
+    height: 90px;
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+       
+}
+.left{
+    color: #fff;
+    font-weight: bold;
+    padding-left:5rem ;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
+
+}
+.right li a {
+    text-decoration: none;
+    padding: 10px 5rem ;
+    color: #fff;
+
+}
+.right li{
+    list-style: none;
+}
+.log{
+    margin: 0 6rem 0 3rem;
+}
+
+.log a{
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 25px ;
+    border-radius: 15px;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    margin:5rem 0 0 5rem;
+    color: white;
+       
+}
+.heading h1{
+    font-size: 45px;
+    padding: none;
+}
+.black_parent{
+    height: 70px;
+    width: 380px;
+    background-color:rgb(57, 52, 59);
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.content{
+    padding: 5px 20px;
+}
+.bottom{
+    height: 120px;
+    width: 89%;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 10px;
+    position: absolute;
+    bottom: 70px;
+    left: 80px;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.locate{
+    margin: 0 6rem;
+}
+.locate span{
+    color:  #cdabff;
+}
+
+.locate i{
+    margin-left: -19px;
+}
+.locate h5{
+    font-size: 16px;
+}
+.btn{
+    margin-right: 3rem;
+}
+.btn a{
+    background-color: black;
+    padding: 7px 30px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+.border{
+    border-right: 2px solid #cdabff;
+    height: 60%;
+}
+.white_box{
+    height: 100px;
+    width: 100%;
+}
+.locate a{
+    color: black;
+}
